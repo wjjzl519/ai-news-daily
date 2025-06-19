@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI资讯日报 - 2025-06-19</title>
+  <style>
+    .filter-bar { margin-bottom: 10px; text-align: right; }
+    .filter-bar button { margin-left: 8px; padding: 6px 12px; border: none; border-radius: 5px; background: #667eea; color: white; cursor: pointer; }
+    .filter-bar button:hover { background: #5a60d6; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🤖 AI资讯日报</h1>
+      <p>2025-06-19 | 人工智能领域最新动态</p>
+      <div style="margin-top:10px; font-size: 0.9em;">
+        🔙 <a href="daily/2025-06-18.html" target="_blank">查看昨日内容</a>
+      </div>
+    </div>
+
+    <!-- 原内容保留 -->
+
+    <div class="history-section">
+      <h2>📅 历史日报目录</h2>
+      <div class="filter-bar">
+        <span>筛选：</span>
+        <button onclick="filterList('all')">全部</button>
+        <button onclick="filterList('7')">最近7天</button>
+        <button onclick="filterList('30')">最近30天</button>
+      </div>
+      <ul class="history-list">
+        
+      </ul>
+    </div>
+
+    <script>
+      function filterList(days) {
+        const all = document.querySelectorAll('.history-list .item');
+        all.forEach(i => i.classList.remove('hidden'));
+        if (days === '7') {
+          all.forEach(i => i.classList.toggle('hidden', !i.classList.contains('day7')));
+        } else if (days === '30') {
+          all.forEach(i => i.classList.toggle('hidden', !i.classList.contains('day30')));
+        }
+      }
+    </script>
+  </div>
+</body>
+</html>
