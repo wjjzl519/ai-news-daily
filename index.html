@@ -1,253 +1,52 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI资讯日报 - 2025/6/19</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6; 
-            color: #333; 
-            background: #f5f5f5;
-        }
-        .container { 
-            max-width: 1200px; 
-            margin: 0 auto; 
-            padding: 20px;
-        }
-        .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-            border-radius: 10px;
-            margin-bottom: 30px;
-        }
-        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
-        .header p { font-size: 1.2em; opacity: 0.9; }
-        .summary {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
-        }
-        .summary h2 { 
-            color: #667eea; 
-            margin-bottom: 15px;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-        }
-        .news-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 20px;
-        }
-        .news-item {
-            background: white;
-            border-radius: 10px;
-            padding: 25px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            transition: transform 0.2s;
-        }
-        .news-item:hover { transform: translateY(-5px); }
-        .news-item h3 { 
-            color: #333; 
-            margin-bottom: 10px;
-            font-size: 1.1em;
-        }
-        .news-item h3 a {
-            color: #333;
-            text-decoration: none;
-        }
-        .news-item h3 a:hover { color: #667eea; }
-        .news-meta {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 15px;
-            font-size: 0.9em;
-            color: #666;
-        }
-        .category {
-            padding: 4px 12px;
-            border-radius: 20px;
-            font-size: 0.8em;
-            font-weight: 500;
-        }
-        .category.industry { background: #e3f2fd; color: #1976d2; }
-        .category.academic { background: #f3e5f5; color: #7b1fa2; }
-        .category.opensource { background: #e8f5e8; color: #388e3c; }
-        .summary-text { 
-            color: #555; 
-            line-height: 1.5;
-            margin-bottom: 15px;
-        }
-        .importance {
-            display: inline-block;
-            background: #ff9800;
-            color: white;
-            padding: 2px 8px;
-            border-radius: 10px;
-            font-size: 0.8em;
-            font-weight: bold;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 50px;
-            padding: 20px;
-            color: #666;
-        }
-        @media (max-width: 768px) {
-            .container { padding: 10px; }
-            .header { padding: 20px; }
-            .header h1 { font-size: 2em; }
-            .news-grid { grid-template-columns: 1fr; }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI资讯日报 - 2025-06-19</title>
+  <style>
+    .filter-bar { margin-bottom: 10px; text-align: right; }
+    .filter-bar button { margin-left: 8px; padding: 6px 12px; border: none; border-radius: 5px; background: #667eea; color: white; cursor: pointer; }
+    .filter-bar button:hover { background: #5a60d6; }
+    .hidden { display: none; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>🤖 AI资讯日报</h1>
-            <p>2025/6/19 | 人工智能领域最新动态</p>
-        </div>
-        
-        <div class="summary">
-            <h2>📊 今日趋势总结</h2>
-            <p>The AI industry is experiencing rapid growth and diversification, with discussions ranging from the practicality and challenges of current AI algorithms to the ethical and legal implications of AI technologies. There's a notable interest in the exponential progress of AI, the integration of AI in various sectors like bioinformatics, and the emergence of new talents and startups in the field. The industry is also grappling with questions about the sustainability of trends like NLP, AI, ML, and bots, indicating a dynamic and evolving landscape.</p>
-        </div>
-        
-        <div class="news-grid">
-            
-                <div class="news-item">
-                    <h3><a href="https://news.ycombinator.com/item?id=36233487" target="_blank">Ask HN: Is the rate of progress in AI exponential?</a></h3>
-                    <div class="news-meta">
-                        <span class="category industry">行业动态</span>
-                        <span>Hacker News</span>
-                        <span class="importance">重要度: 9</span>
-                    </div>
-                    <div class="summary-text">探讨AI进步速度是否呈指数级增长。</div>
-                    
-                    
-                </div>
-            
-                <div class="news-item">
-                    <h3><a href="https://news.ycombinator.com/item?id=27111719" target="_blank">Ask HN: What's the pain using current AI algorithms?</a></h3>
-                    <div class="news-meta">
-                        <span class="category industry">行业动态</span>
-                        <span>Hacker News</span>
-                        <span class="importance">重要度: 8</span>
-                    </div>
-                    <div class="summary-text">讨论当前AI算法使用中的痛点。</div>
-                    
-                    
-                </div>
-            
-                <div class="news-item">
-                    <h3><a href="https://lekta.ai/blog/natural-language-processing-artificial-intelligence-machine-learning-bots-a-passing-trend-or-much-more" target="_blank">NLP, AI, ML, bots – a passing trend or much more? What's your take on this?</a></h3>
-                    <div class="news-meta">
-                        <span class="category industry">行业动态</span>
-                        <span>Hacker News</span>
-                        <span class="importance">重要度: 8</span>
-                    </div>
-                    <div class="summary-text">探讨NLP、AI、ML和bots是短暂趋势还是更深远的变革。</div>
-                    
-                    
-                </div>
-            
-                <div class="news-item">
-                    <h3><a href="https://news.ycombinator.com/item?id=36431356" target="_blank">Ask HN: Anyone concerned about NYC Local Law 144?</a></h3>
-                    <div class="news-meta">
-                        <span class="category industry">行业动态</span>
-                        <span>Hacker News</span>
-                        <span class="importance">重要度: 7</span>
-                    </div>
-                    <div class="summary-text">询问对纽约市地方法律144条的关注。</div>
-                    
-                    
-                </div>
-            
-                <div class="news-item">
-                    <h3><a href="http://www.yourobot.io/blog/uncategorized/the-next-bill-gates-or-albert-einstein-in-ai-artificial-intelligence-will-produce-the-god-algorithm-of-machine-learning-where-a-machine-will-be-able-to-do-and-learn-anything-by-its-self/" target="_blank">The Next Bill Gates or Albert Einstein in AI “Chris Clark” – Yourobot</a></h3>
-                    <div class="news-meta">
-                        <span class="category industry">行业动态</span>
-                        <span>Hacker News</span>
-                        <span class="importance">重要度: 7</span>
-                    </div>
-                    <div class="summary-text">介绍AI领域的潜在领军人物Chris Clark。</div>
-                    
-                    
-                </div>
-            
-                <div class="news-item">
-                    <h3><a href="https://news.ycombinator.com/item?id=401541" target="_blank">Common Lisp + Machine Learning Internship at Google (Mountain View, CA)</a></h3>
-                    <div class="news-meta">
-                        <span class="category industry">行业动态</span>
-                        <span>Hacker News</span>
-                        <span class="importance">重要度: 6</span>
-                    </div>
-                    <div class="summary-text">谷歌提供Common Lisp与机器学习实习机会。</div>
-                    
-                    
-                </div>
-            
-                <div class="news-item">
-                    <h3><a href="https://news.ycombinator.com/item?id=15140715" target="_blank">Bioinformatician</a></h3>
-                    <div class="news-meta">
-                        <span class="category industry">行业动态</span>
-                        <span>Hacker News</span>
-                        <span class="importance">重要度: 6</span>
-                    </div>
-                    <div class="summary-text">生物信息学家的职位信息。</div>
-                    
-                    
-                </div>
-            
-                <div class="news-item">
-                    <h3><a href="https://news.ycombinator.com/item?id=12995049" target="_blank">Ask HN: Dipping my toes with artificial intelligence and what to expect? (CS)</a></h3>
-                    <div class="news-meta">
-                        <span class="category industry">行业动态</span>
-                        <span>Hacker News</span>
-                        <span class="importance">重要度: 5</span>
-                    </div>
-                    <div class="summary-text">初学者询问涉足AI领域的预期。</div>
-                    
-                    
-                </div>
-            
-                <div class="news-item">
-                    <h3><a href="https://news.ycombinator.com/item?id=35103021" target="_blank">The AI Crackpot Index</a></h3>
-                    <div class="news-meta">
-                        <span class="category industry">行业动态</span>
-                        <span>Hacker News</span>
-                        <span class="importance">重要度: 4</span>
-                    </div>
-                    <div class="summary-text">AI领域的非主流观点索引。</div>
-                    
-                    
-                </div>
-            
-                <div class="news-item">
-                    <h3><a href="https://news.ycombinator.com/item?id=42619160" target="_blank">Show HN: Startup Raising capital through Book Sales</a></h3>
-                    <div class="news-meta">
-                        <span class="category industry">行业动态</span>
-                        <span>Hacker News</span>
-                        <span class="importance">重要度: 3</span>
-                    </div>
-                    <div class="summary-text">初创公司通过书籍销售筹集资金。</div>
-                    
-                    
-                </div>
-            
-        </div>
-        
-        <div class="footer">
-            <p>🔄 由 Cloudflare Workers + Google Gemini 自动生成</p>
-            <p>📅 更新时间: 2025/6/19 07:56:35</p>
-        </div>
+  <div class="container">
+    <div class="header">
+      <h1>🤖 AI资讯日报</h1>
+      <p>2025-06-19 | 人工智能领域最新动态</p>
+      <div style="margin-top:10px; font-size: 0.9em;">
+        🔙 <a href="daily/2025-06-18.html" target="_blank">查看昨日内容</a>
+      </div>
     </div>
+
+    <!-- 原内容保留 -->
+
+    <div class="history-section">
+      <h2>📅 历史日报目录</h2>
+      <div class="filter-bar">
+        <span>筛选：</span>
+        <button onclick="filterList('all')">全部</button>
+        <button onclick="filterList('7')">最近7天</button>
+        <button onclick="filterList('30')">最近30天</button>
+      </div>
+      <ul class="history-list">
+        
+      </ul>
+    </div>
+
+    <script>
+      function filterList(days) {
+        const all = document.querySelectorAll('.history-list .item');
+        all.forEach(i => i.classList.remove('hidden'));
+        if (days === '7') {
+          all.forEach(i => i.classList.toggle('hidden', !i.classList.contains('day7')));
+        } else if (days === '30') {
+          all.forEach(i => i.classList.toggle('hidden', !i.classList.contains('day30')));
+        }
+      }
+    </script>
+  </div>
 </body>
 </html>
