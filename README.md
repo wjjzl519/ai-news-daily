@@ -1,5 +1,5 @@
 # AI资讯日报 (AI News Daily)
-
+https://wjjzl519.github.io/ai-news-daily/
 ## 项目简介
 
 AI资讯日报是一个基于现代云原生技术栈的自动化AI新闻聚合系统。该项目通过整合 **Cloudflare Workers**、**DeepSeek AI** 和 **GitHub Actions** 等先进技术，实现每日自动获取、分析和推送全球最新AI科技资讯的功能。
