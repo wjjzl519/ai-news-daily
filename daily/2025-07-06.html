@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI资讯日报 - 2025/7/6</title>
+  <style>
+    /* 添加按钮样式 */
+    .nav-buttons {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 15px;
+      flex-wrap: wrap;
+    }
+    .nav-button {
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: 20px;
+      padding: 6px 15px;
+      color: white;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      transition: all 0.3s;
+      font-size: 0.9em;
+    }
+    .nav-button:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: translateY(-2px);
+    }
+    /* 其他样式保持不变 */
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #333; margin: 0; padding: 0; }
+    .container { max-width: 1200px; margin: auto; padding: 20px; }
+    .header { background: linear-gradient(135deg, #667eea, #764ba2); color: #fff; padding: 40px 20px; border-radius: 10px; text-align: center; }
+    .header h1 { font-size: 2.5em; margin: 0; }
+    .summary, .history-section { background: #fff; margin-top: 30px; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    .summary h2, .history-section h2 { color: #667eea; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; }
+    .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; margin-top: 30px; }
+    .news-item { background: white; border-radius: 10px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    .news-item h3 a { text-decoration: none; color: #333; font-size: 1.1em; }
+    .news-item h3 a:hover { color: #667eea; }
+    .news-meta { font-size: 0.9em; color: #666; margin-bottom: 10px; }
+    .category { display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 0.8em; margin-right: 8px; }
+    .category.industry { background: #e3f2fd; color: #1976d2; }
+    .category.academic { background: #f3e5f5; color: #7b1fa2; }
+    .category.opensource { background: #e8f5e9; color: #388e3c; }
+    .summary-text { margin-top: 10px; color: #555; }
+    .importance { background: #ff9800; color: white; padding: 2px 8px; border-radius: 10px; font-size: 0.75em; margin-left: 10px; }
+    .history-list { list-style: none; padding-left: 0; }
+    .history-list li { margin: 5px 0; }
+    .history-list a { text-decoration: none; color: #333; }
+    .history-list a:hover { color: #667eea; }
+    .footer { text-align: center; font-size: 0.9em; color: #999; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🤖 AI资讯日报</h1>
+      <p>2025/7/6 | 人工智能领域最新动态</p>
+      <div class="nav-buttons">
+        <a href="../daily/2025-07-05.html" class="nav-button">
+          🔙 查看昨日内容
+        </a>
+        <a href="../" class="nav-button">
+          🏠 返回主页
+        </a>
+      </div>
+    </div>
+
+    <div class="summary">
+      <h2>📊 今日趋势总结</h2>
+      <p>AI领域持续快速发展，涉及行业应用、技术挑战、法律规范、教育机会及成本优化等多个方面。从技术讨论到实际应用，显示出AI技术的广泛影响和潜力。</p>
+    </div>
+
+    <div class="news-grid">
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=18049136" target="_blank">50% Cheaper GPUs for cloud-computing / Saving devs 50% compared to AWS</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 9</span>
+          </div>
+          <div class="summary-text">云计算GPU成本降低50%，相比AWS节省开发者50%费用。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=36233487" target="_blank">Ask HN: Is the rate of progress in AI exponential?</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 8</span>
+          </div>
+          <div class="summary-text">探讨AI进步速度是否呈指数级增长。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=27111719" target="_blank">Ask HN: What's the pain using current AI algorithms?</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">探讨当前AI算法使用中的痛点。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://lekta.ai/blog/natural-language-processing-artificial-intelligence-machine-learning-bots-a-passing-trend-or-much-more" target="_blank">NLP, AI, ML, bots – a passing trend or much more? What's your take on this?</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">NLP、AI、ML、机器人是短暂趋势还是更深远的变革？</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=401541" target="_blank">Common Lisp + Machine Learning Internship at Google (Mountain View, CA)</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 6</span>
+          </div>
+          <div class="summary-text">谷歌提供Common Lisp与机器学习实习机会。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=12995049" target="_blank">Ask HN: Dipping my toes with artificial intelligence and what to expect? (CS)</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 6</span>
+          </div>
+          <div class="summary-text">初探人工智能领域及预期。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=35103021" target="_blank">The AI Crackpot Index</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 5</span>
+          </div>
+          <div class="summary-text">AI领域的非主流观点索引。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://www.yourobot.io/blog/uncategorized/the-next-bill-gates-or-albert-einstein-in-ai-artificial-intelligence-will-produce-the-god-algorithm-of-machine-learning-where-a-machine-will-be-able-to-do-and-learn-anything-by-its-self/" target="_blank">The Next Bill Gates or Albert Einstein in AI “Chris Clark” – Yourobot</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 5</span>
+          </div>
+          <div class="summary-text">AI领域的下一个比尔·盖茨或爱因斯坦——Chris Clark。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=244100" target="_blank">Ask HN: Thoughts on grad school? (CS PhD)</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 5</span>
+          </div>
+          <div class="summary-text">关于研究生院（CS博士）的思考。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=36431356" target="_blank">Ask HN: Anyone concerned about NYC Local Law 144?</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 4</span>
+          </div>
+          <div class="summary-text">询问对纽约市地方法律144号的关注。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=15140715" target="_blank">Bioinformatician</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 4</span>
+          </div>
+          <div class="summary-text">生物信息学家相关讨论。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=42619160" target="_blank">Show HN: Startup Raising capital through Book Sales</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 3</span>
+          </div>
+          <div class="summary-text">初创公司通过书籍销售筹集资金。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/huggingface/transformers.js" target="_blank">huggingface/transformers.js</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 10</span>
+          </div>
+          <div class="summary-text">在浏览器中直接运行最先进的机器学习模型，无需服务器。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 13993 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/deeplearning4j/deeplearning4j" target="_blank">deeplearning4j/deeplearning4j</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 9</span>
+          </div>
+          <div class="summary-text">使用JVM部署和训练深度学习模型的工具套件。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 14035 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/davisking/dlib" target="_blank">davisking/dlib</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 8</span>
+          </div>
+          <div class="summary-text">用于C++中真实世界机器学习和数据分析应用的工具包。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 14053 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/ShangtongZhang/reinforcement-learning-an-introduction" target="_blank">ShangtongZhang/reinforcement-learning-an-introduction</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">《强化学习导论》的Python实现。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 14173 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/davidsandberg/facenet" target="_blank">davidsandberg/facenet</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">使用Tensorflow进行人脸识别。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 14131 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/cvat-ai/cvat" target="_blank">cvat-ai/cvat</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 6</span>
+          </div>
+          <div class="summary-text">机器学习行业领先的数据引擎，用于数据标注。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 14006 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/jindongwang/transferlearning" target="_blank">jindongwang/transferlearning</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 6</span>
+          </div>
+          <div class="summary-text">迁移学习/领域适应/领域泛化/多任务学习等的论文、代码、数据集和应用。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 13986 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/stas00/ml-engineering" target="_blank">stas00/ml-engineering</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 5</span>
+          </div>
+          <div class="summary-text">机器学习工程开放书籍。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 14202 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/marimo-team/marimo" target="_blank">marimo-team/marimo</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 5</span>
+          </div>
+          <div class="summary-text">Python的反应式笔记本，可运行可重复实验、SQL查询、脚本执行和应用部署。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 14199 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/virgili0/Virgilio" target="_blank">virgili0/Virgilio</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 4</span>
+          </div>
+          <div class="summary-text">数据科学电子学习的新导师。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 14098 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/bbfamily/abu" target="_blank">bbfamily/abu</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 4</span>
+          </div>
+          <div class="summary-text">基于Python的开源量化交易和投资架构。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 14091 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/nltk/nltk" target="_blank">nltk/nltk</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 3</span>
+          </div>
+          <div class="summary-text">自然语言工具包源代码。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 14159 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2507.02863v1" target="_blank">Point3R: Streaming 3D Reconstruction with Explicit Spatial Pointer Memory</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 9</span>
+          </div>
+          <div class="summary-text">提出Point3R框架，通过显式空间指针内存实现密集流式3D重建，提升场景信息整合效率。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Yuqi Wu, Wenzhao Zheng, Jie Zhou, Jiwen Lu</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2507.02788v1" target="_blank">Moral Responsibility or Obedience: What Do We Want from AI?</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 9</span>
+          </div>
+          <div class="summary-text">探讨AI伦理责任与服从性，呼吁评估框架转向伦理判断能力。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Joseph Boland</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2507.02861v1" target="_blank">LiteReality: Graphics-Ready 3D Scene Reconstruction from RGB-D Scans</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 8</span>
+          </div>
+          <div class="summary-text">LiteReality管道将RGB-D扫描转换为紧凑、逼真的3D虚拟副本，支持图形管道关键特性。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Zhening Huang, Xiaoyang Wu, Fangcheng Zhong, Hengshuang Zhao, Matthias Nießner, Joan Lasenby</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2507.02851v1" target="_blank">MOTIF: Modular Thinking via Reinforcement Fine-tuning in LLMs</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 8</span>
+          </div>
+          <div class="summary-text">提出MOTIF方法，通过强化微调使LLM能够进行多轮模块化思考，超越上下文大小限制。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Purbesh Mitra, Sennur Ulukus</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2507.02822v1" target="_blank">SynapseRoute: An Auto-Route Switching Framework on Dual-State Large Language Model</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 8</span>
+          </div>
+          <div class="summary-text">SynapseRoute框架动态路由查询到思考或非思考模式，优化准确性和成本效率。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Wencheng Zhang, Shiqin Qiao, Lingjie Luo, Yinfeng Li, Chuanyang Zheng, Qian Xu, Meng Li, Yong Gui, Yijun He, Jianing Qiu, Jindong Hong, Jiankai Sun</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2507.02778v1" target="_blank">Self-Correction Bench: Revealing and Addressing the Self-Correction Blind Spot in LLMs</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 8</span>
+          </div>
+          <div class="summary-text">揭示LLMs自我纠正盲点，提出通过简单提示显著减少盲点的方法。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Ken Tsui</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2507.02856v1" target="_blank">Answer Matching Outperforms Multiple Choice for Language Model Evaluation</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">研究表明，答案匹配在语言模型评估中优于多项选择，提供更接近人类评分的准确性。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Nikhil Chandak, Shashwat Goel, Ameya Prabhu, Moritz Hardt, Jonas Geiping</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2507.02841v1" target="_blank">StepHint: Multi-level Stepwise Hints Enhance Reinforcement Learning to Reason</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">StepHint算法通过多级逐步提示增强RLVR，有效解决近失奖励问题和探索停滞。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Kaiyi Zhang, Ang Lv, Jinpeng Li, Yongbo Wang, Feng Wang, Haoyuan Hu, Rui Yan</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2507.02827v1" target="_blank">USAD: An Unsupervised Data Augmentation Spatio-Temporal Attention Diffusion Network</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">USAD网络通过无监督数据增强和时空注意力机制，显著提升人类活动识别性能。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Ying Yu, Hang Xiao, Siyao Li, Jiarui Li, Haotian Tang, Hanyu Liu, Chao Li</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2507.02824v1" target="_blank">DNN-Based Precoding in RIS-Aided mmWave MIMO Systems With Practical Phase Shift</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">研究RIS辅助毫米波MIMO系统中的DNN预编码设计，提升传输效率。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Po-Heng Chou, Ching-Wen Chen, Wan-Jen Huang, Walid Saad, Yu Tsao, Ronald Y. Chang</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2507.02855v1" target="_blank">Subtyping in DHOL -- Extended preprint</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 6</span>
+          </div>
+          <div class="summary-text">扩展DHOL语言，引入精化和商类型作为子类型的特例，增强表达能力和自动化支持。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Colin Rothgang, Florian Rabe</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2507.02825v1" target="_blank">Establishing Best Practices for Building Rigorous Agentic Benchmarks</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 6</span>
+          </div>
+          <div class="summary-text">引入ABC清单，为构建严格的代理基准提供指导，减少性能高估问题。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Yuxuan Zhu, Tengjun Jin, Yada Pruksachatkun, Andy Zhang, Shu Liu, Sasha Cui, Sayash Kapoor, Shayne Longpre, Kevin Meng, Rebecca Weiss, Fazl Barez, Rahul Gupta, Jwala Dhamala, Jacob Merizian, Mario Giulianelli, Harry Coppock, Cozmin Ududec, Jasjeet Sekhon, Jacob Steinhardt, Antony Kellerman, Sarah Schwettmann, Matei Zaharia, Ion Stoica, Percy Liang, Daniel Kang</div>
+        </div>
+      
+    </div>
+
+    <div class="history-section">
+        <h2>📅 历史日报目录</h2>
+        <ul class="history-list">
+          <li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-05.html" target="_blank">2025-07-05</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-04.html" target="_blank">2025-07-04</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-03.html" target="_blank">2025-07-03</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-02.html" target="_blank">2025-07-02</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-01.html" target="_blank">2025-07-01</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-30.html" target="_blank">2025-06-30</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-29.html" target="_blank">2025-06-29</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-28.html" target="_blank">2025-06-28</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-27.html" target="_blank">2025-06-27</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-26.html" target="_blank">2025-06-26</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-25.html" target="_blank">2025-06-25</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-24.html" target="_blank">2025-06-24</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-23.html" target="_blank">2025-06-23</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-22.html" target="_blank">2025-06-22</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-21.html" target="_blank">2025-06-21</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-20.html" target="_blank">2025-06-20</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-19.html" target="_blank">2025-06-19</a></li>
+        </ul>
+      </div>
+
+    <div class="footer">
+      🔄 由 Cloudflare Workers + DeepSeek 自动生成 | 更新时间: 2025/7/6 22:03:35
+    </div>
+  </div>
+</body>
+</html>
