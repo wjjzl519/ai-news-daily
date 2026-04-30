@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI资讯日报 - 2026/4/30</title>
+  <style>
+    /* 添加按钮样式 */
+    .nav-buttons {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 15px;
+      flex-wrap: wrap;
+    }
+    .nav-button {
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: 20px;
+      padding: 6px 15px;
+      color: white;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      transition: all 0.3s;
+      font-size: 0.9em;
+    }
+    .nav-button:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: translateY(-2px);
+    }
+    /* 其他样式保持不变 */
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #333; margin: 0; padding: 0; }
+    .container { max-width: 1200px; margin: auto; padding: 20px; }
+    .header { background: linear-gradient(135deg, #667eea, #764ba2); color: #fff; padding: 40px 20px; border-radius: 10px; text-align: center; }
+    .header h1 { font-size: 2.5em; margin: 0; }
+    .summary, .history-section { background: #fff; margin-top: 30px; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    .summary h2, .history-section h2 { color: #667eea; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 15px; }
+    .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; margin-top: 30px; }
+    .news-item { background: white; border-radius: 10px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    .news-item h3 a { text-decoration: none; color: #333; font-size: 1.1em; }
+    .news-item h3 a:hover { color: #667eea; }
+    .news-meta { font-size: 0.9em; color: #666; margin-bottom: 10px; }
+    .category { display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 0.8em; margin-right: 8px; }
+    .category.industry { background: #e3f2fd; color: #1976d2; }
+    .category.academic { background: #f3e5f5; color: #7b1fa2; }
+    .category.opensource { background: #e8f5e9; color: #388e3c; }
+    .summary-text { margin-top: 10px; color: #555; }
+    .importance { background: #ff9800; color: white; padding: 2px 8px; border-radius: 10px; font-size: 0.75em; margin-left: 10px; }
+    .history-list { list-style: none; padding-left: 0; }
+    .history-list li { margin: 5px 0; }
+    .history-list a { text-decoration: none; color: #333; }
+    .history-list a:hover { color: #667eea; }
+    .footer { text-align: center; font-size: 0.9em; color: #999; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🤖 AI资讯日报</h1>
+      <p>2026/4/30 | 人工智能领域最新动态</p>
+      <div class="nav-buttons">
+        <a href="../daily/2026-04-29.html" class="nav-button">
+          🔙 查看昨日内容
+        </a>
+        <a href="../" class="nav-button">
+          🏠 返回主页
+        </a>
+      </div>
+    </div>
+
+    <div class="summary">
+      <h2>📊 今日趋势总结</h2>
+      <p>当前AI领域讨论焦点包括AI许可证限制、技术炒作、实际应用痛点、监管问题以及学习资源。趋势显示社区对AI伦理、可解释性、就业影响和长期可持续性关注度上升，同时存在对AI进展速度的质疑和泡沫风险的担忧。</p>
+    </div>
+
+    <div class="news-grid">
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=46562867" target="_blank">MIT Non-AI License</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 9</span>
+          </div>
+          <div class="summary-text">MIT推出非AI许可证，限制AI模型使用开源代码。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=36431356" target="_blank">Ask HN: Anyone concerned about NYC Local Law 144?</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 8</span>
+          </div>
+          <div class="summary-text">讨论纽约市AI招聘审计法144的潜在影响。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=44848018" target="_blank">Why Boring Businesses Outlast AI Hype Cycles</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">传统企业比AI初创更能在炒作周期中生存。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=36233487" target="_blank">Ask HN: Is the rate of progress in AI exponential?</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">质疑AI进步是否呈指数级增长。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=35103021" target="_blank">The AI Crackpot Index</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 6</span>
+          </div>
+          <div class="summary-text">识别AI领域中的伪科学和夸大言论。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=27111719" target="_blank">Ask HN: What's the pain using current AI algorithms?</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 6</span>
+          </div>
+          <div class="summary-text">用户分享使用当前AI算法遇到的困难。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=44899994" target="_blank">Ask HN: What would you read to learn about "artificial intelligence"?</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 5</span>
+          </div>
+          <div class="summary-text">推荐学习AI的阅读资料。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://lekta.ai/blog/natural-language-processing-artificial-intelligence-machine-learning-bots-a-passing-trend-or-much-more" target="_blank">NLP, AI, ML, bots – a passing trend or much more? What's your take on this?</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 5</span>
+          </div>
+          <div class="summary-text">探讨NLP、AI、ML和机器人是否是短暂趋势。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=401541" target="_blank">Common Lisp + Machine Learning Internship at Google (Mountain View, CA)</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 4</span>
+          </div>
+          <div class="summary-text">Google提供Common Lisp和机器学习实习岗位。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=42619160" target="_blank">Show HN: Startup Raising capital through Book Sales</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 3</span>
+          </div>
+          <div class="summary-text">初创公司通过卖书筹集资金。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://www.yourobot.io/blog/uncategorized/the-next-bill-gates-or-albert-einstein-in-ai-artificial-intelligence-will-produce-the-god-algorithm-of-machine-learning-where-a-machine-will-be-able-to-do-and-learn-anything-by-its-self/" target="_blank">The Next Bill Gates or Albert Einstein in AI “Chris Clark” – Yourobot</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 2</span>
+          </div>
+          <div class="summary-text">宣传AI领域未来之星Chris Clark。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://news.ycombinator.com/item?id=15140715" target="_blank">Bioinformatician</a></h3>
+          <div class="news-meta">
+            <span class="category industry">行业动态</span>
+            <span>Hacker News</span>
+            <span class="importance">重要度: 2</span>
+          </div>
+          <div class="summary-text">生物信息学相关职位或讨论。</div>
+          
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="https://github.com/Fincept-Corporation/FinceptTerminal" target="_blank">Fincept-Corporation/FinceptTerminal</a></h3>
+          <div class="news-meta">
+            <span class="category opensource">开源项目</span>
+            <span>GitHub</span>
+            <span class="importance">重要度: 8</span>
+          </div>
+          <div class="summary-text">开源金融终端，提供市场分析、投资研究及经济数据工具。</div>
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">⭐ 18285 stars</div>
+          
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2604.26951v1" target="_blank">Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 10</span>
+          </div>
+          <div class="summary-text">提出首个跨架构扩散LLM蒸馏框架TIDE，将8B/16B教师蒸馏至0.6B学生，在8个基准上平均提升1.53分。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Gongbo Zhang, Wen Wang, Ye Tian, Li Yuan</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2604.26805v1" target="_blank">Bian Que: An Agentic Framework with Flexible Skill Arrangement for Online System Operations</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 9</span>
+          </div>
+          <div class="summary-text">为在线系统运维设计的代理框架，在快手电商搜索场景减少75%告警，根因分析准确率80%，平均修复时间降低超50%。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Bochao Liu, Zhipeng Qian, Yang Zhao, Xinyuan Jiang, Zihan Liang, Yufei Ma, Junpeng Zhuang, Ben Chen, Shuo Yang, Hongen Wan, Yao Wu, Chenyi Lei, Xiao Liang</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2604.26851v1" target="_blank">Resume-ing Control: (Mis)Perceptions of Agency Around GenAI Use in Recruiting Workflows</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 9</span>
+          </div>
+          <div class="summary-text">揭示招聘流程中使用生成式AI导致人类感知控制错觉，AI成为无形架构师，造成去技能化风险。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Sajel Surati, Rosanna Bellini, Emily Black</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2604.26841v1" target="_blank">Language Diffusion Models are Associative Memories Capable of Retrieving Unseen Data</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 8</span>
+          </div>
+          <div class="summary-text">证明离散扩散语言模型本质上是联想记忆，发现从记忆到泛化的尖锐转变，提出条件熵作为探测指标。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Bao Pham, Mohammed J. Zaki, Luca Ambrogioni, Dmitry Krotov, Matteo Negri</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2604.26904v1" target="_blank">ClawGym: A Scalable Framework for Building Effective Claw Agents</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">构建Claw风格个人代理的完整框架，包括合成数据集、训练管道和基准测试。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Fei Bai, Huatong Song, Shuang Sun, Daixuan Cheng, Yike Yang, Chuan Hao, Renyuan Li, Feng Chang, Yuan Wei, Ran Tao, Bryan Dai, Jian Yang, Wayne Xin Zhao</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2604.26919v1" target="_blank">Causal Learning with Neural Assemblies</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">首次展示神经集群可通过局部可塑性学习因果关系，提出DIRECT机制，实现结构因果恢复。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Evangelia Kopadi, Dimitris Kalles</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2604.26830v1" target="_blank">Random Cloud: Finding Minimal Neural Architectures Without Training</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 7</span>
+          </div>
+          <div class="summary-text">提出免训练神经网络架构搜索方法，在7个分类基准中6个达到或超越剪枝基线，参数减少87%。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Javier Gil Blázquez</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2604.26806v1" target="_blank">ViCrop-Det: Spatial Attention Entropy Guided Cropping for Training-Free Small-Object Detection</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 6</span>
+          </div>
+          <div class="summary-text">基于空间注意熵的自适应裁剪框架，无需训练即可提升小目标检测性能，在VisDrone等数据集上+1-3 mAP@50。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Hui Wang, Hongze Li, Wei Chen, Xiaojin Zhang</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2604.26774v1" target="_blank">MemOVCD: Training-Free Open-Vocabulary Change Detection via Cross-Temporal Memory Reasoning and Global-Local Adaptive Rectification</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 6</span>
+          </div>
+          <div class="summary-text">免训练开放词汇变化检测框架，通过跨时间记忆推理和全局-局部自适应修正提升遥感图像变化检测性能。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Zuzheng Kuang, Honghao Chang, Boqiang Liang, Haoqian Wang, Lijun He, Fan Li, Haixia Bi</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2604.26835v1" target="_blank">HalluCiteChecker: A Lightweight Toolkit for Hallucinated Citation Detection and Verification in the Era of AI Scientists</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 6</span>
+          </div>
+          <div class="summary-text">轻量级工具包，用于检测科学论文中的幻觉引用，可在普通笔记本上数秒内完成验证。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Yusuke Sakai, Hidetaka Kamigaito, Taro Watanabe</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2604.26903v1" target="_blank">Recent Advances in mm-Wave and Sub-THz/THz Oscillators for FutureG Technologies</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 5</span>
+          </div>
+          <div class="summary-text">综述毫米波和亚太赫兹振荡器的最新进展，覆盖CMOS、SiGe、III-V技术，为未来通信提供设计指导。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Baktash Behmanesh, Ahmad Rezvanitabar</div>
+        </div>
+      
+        <div class="news-item">
+          <h3><a href="http://arxiv.org/abs/2604.26833v1" target="_blank">Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training</a></h3>
+          <div class="news-meta">
+            <span class="category academic">学术论文</span>
+            <span>ArXiv</span>
+            <span class="importance">重要度: 5</span>
+          </div>
+          <div class="summary-text">结合规则高层指导和在线强化学习的无人机搜救框架，在有限模拟训练下提升安全性和样本效率。</div>
+          
+          <div style="margin-top:5px; font-size:0.9em; color:#666;">👨‍🔬 Mahya Ramezani, Holger Voos</div>
+        </div>
+      
+    </div>
+
+    <div class="history-section">
+        <h2>📅 历史日报目录</h2>
+        <ul class="history-list">
+          <li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-29.html" target="_blank">2026-04-29</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-28.html" target="_blank">2026-04-28</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-27.html" target="_blank">2026-04-27</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-26.html" target="_blank">2026-04-26</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-25.html" target="_blank">2026-04-25</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-24.html" target="_blank">2026-04-24</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-23.html" target="_blank">2026-04-23</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-22.html" target="_blank">2026-04-22</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-21.html" target="_blank">2026-04-21</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-20.html" target="_blank">2026-04-20</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-19.html" target="_blank">2026-04-19</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-18.html" target="_blank">2026-04-18</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-17.html" target="_blank">2026-04-17</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-16.html" target="_blank">2026-04-16</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-15.html" target="_blank">2026-04-15</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-14.html" target="_blank">2026-04-14</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-13.html" target="_blank">2026-04-13</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-12.html" target="_blank">2026-04-12</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-11.html" target="_blank">2026-04-11</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-10.html" target="_blank">2026-04-10</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-09.html" target="_blank">2026-04-09</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-08.html" target="_blank">2026-04-08</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-07.html" target="_blank">2026-04-07</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-06.html" target="_blank">2026-04-06</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-05.html" target="_blank">2026-04-05</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-04.html" target="_blank">2026-04-04</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-03.html" target="_blank">2026-04-03</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-02.html" target="_blank">2026-04-02</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-04-01.html" target="_blank">2026-04-01</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-31.html" target="_blank">2026-03-31</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-30.html" target="_blank">2026-03-30</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-29.html" target="_blank">2026-03-29</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-28.html" target="_blank">2026-03-28</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-27.html" target="_blank">2026-03-27</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-26.html" target="_blank">2026-03-26</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-25.html" target="_blank">2026-03-25</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-24.html" target="_blank">2026-03-24</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-23.html" target="_blank">2026-03-23</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-22.html" target="_blank">2026-03-22</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-21.html" target="_blank">2026-03-21</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-20.html" target="_blank">2026-03-20</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-19.html" target="_blank">2026-03-19</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-18.html" target="_blank">2026-03-18</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-17.html" target="_blank">2026-03-17</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-16.html" target="_blank">2026-03-16</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-15.html" target="_blank">2026-03-15</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-14.html" target="_blank">2026-03-14</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-13.html" target="_blank">2026-03-13</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-12.html" target="_blank">2026-03-12</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-11.html" target="_blank">2026-03-11</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-10.html" target="_blank">2026-03-10</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-09.html" target="_blank">2026-03-09</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-08.html" target="_blank">2026-03-08</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-07.html" target="_blank">2026-03-07</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-06.html" target="_blank">2026-03-06</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-05.html" target="_blank">2026-03-05</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-04.html" target="_blank">2026-03-04</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-03.html" target="_blank">2026-03-03</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-02.html" target="_blank">2026-03-02</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-03-01.html" target="_blank">2026-03-01</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-28.html" target="_blank">2026-02-28</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-27.html" target="_blank">2026-02-27</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-26.html" target="_blank">2026-02-26</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-25.html" target="_blank">2026-02-25</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-24.html" target="_blank">2026-02-24</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-23.html" target="_blank">2026-02-23</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-22.html" target="_blank">2026-02-22</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-21.html" target="_blank">2026-02-21</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-20.html" target="_blank">2026-02-20</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-19.html" target="_blank">2026-02-19</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-18.html" target="_blank">2026-02-18</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-17.html" target="_blank">2026-02-17</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-16.html" target="_blank">2026-02-16</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-15.html" target="_blank">2026-02-15</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-14.html" target="_blank">2026-02-14</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-13.html" target="_blank">2026-02-13</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-12.html" target="_blank">2026-02-12</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-11.html" target="_blank">2026-02-11</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-10.html" target="_blank">2026-02-10</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-09.html" target="_blank">2026-02-09</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-08.html" target="_blank">2026-02-08</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-07.html" target="_blank">2026-02-07</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-06.html" target="_blank">2026-02-06</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-05.html" target="_blank">2026-02-05</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-04.html" target="_blank">2026-02-04</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-03.html" target="_blank">2026-02-03</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-02.html" target="_blank">2026-02-02</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-02-01.html" target="_blank">2026-02-01</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-31.html" target="_blank">2026-01-31</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-30.html" target="_blank">2026-01-30</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-29.html" target="_blank">2026-01-29</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-28.html" target="_blank">2026-01-28</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-27.html" target="_blank">2026-01-27</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-26.html" target="_blank">2026-01-26</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-25.html" target="_blank">2026-01-25</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-24.html" target="_blank">2026-01-24</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-23.html" target="_blank">2026-01-23</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-22.html" target="_blank">2026-01-22</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-21.html" target="_blank">2026-01-21</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-20.html" target="_blank">2026-01-20</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-19.html" target="_blank">2026-01-19</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-18.html" target="_blank">2026-01-18</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-17.html" target="_blank">2026-01-17</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-16.html" target="_blank">2026-01-16</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-15.html" target="_blank">2026-01-15</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-14.html" target="_blank">2026-01-14</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-13.html" target="_blank">2026-01-13</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-12.html" target="_blank">2026-01-12</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-11.html" target="_blank">2026-01-11</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-10.html" target="_blank">2026-01-10</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-09.html" target="_blank">2026-01-09</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-08.html" target="_blank">2026-01-08</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-07.html" target="_blank">2026-01-07</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-06.html" target="_blank">2026-01-06</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-05.html" target="_blank">2026-01-05</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-04.html" target="_blank">2026-01-04</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-03.html" target="_blank">2026-01-03</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-02.html" target="_blank">2026-01-02</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2026-01-01.html" target="_blank">2026-01-01</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-31.html" target="_blank">2025-12-31</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-30.html" target="_blank">2025-12-30</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-29.html" target="_blank">2025-12-29</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-28.html" target="_blank">2025-12-28</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-27.html" target="_blank">2025-12-27</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-26.html" target="_blank">2025-12-26</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-25.html" target="_blank">2025-12-25</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-24.html" target="_blank">2025-12-24</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-23.html" target="_blank">2025-12-23</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-22.html" target="_blank">2025-12-22</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-21.html" target="_blank">2025-12-21</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-20.html" target="_blank">2025-12-20</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-19.html" target="_blank">2025-12-19</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-18.html" target="_blank">2025-12-18</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-17.html" target="_blank">2025-12-17</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-16.html" target="_blank">2025-12-16</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-15.html" target="_blank">2025-12-15</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-14.html" target="_blank">2025-12-14</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-13.html" target="_blank">2025-12-13</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-12.html" target="_blank">2025-12-12</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-11.html" target="_blank">2025-12-11</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-10.html" target="_blank">2025-12-10</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-09.html" target="_blank">2025-12-09</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-08.html" target="_blank">2025-12-08</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-07.html" target="_blank">2025-12-07</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-06.html" target="_blank">2025-12-06</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-05.html" target="_blank">2025-12-05</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-04.html" target="_blank">2025-12-04</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-03.html" target="_blank">2025-12-03</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-02.html" target="_blank">2025-12-02</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-12-01.html" target="_blank">2025-12-01</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-30.html" target="_blank">2025-11-30</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-29.html" target="_blank">2025-11-29</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-28.html" target="_blank">2025-11-28</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-27.html" target="_blank">2025-11-27</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-26.html" target="_blank">2025-11-26</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-25.html" target="_blank">2025-11-25</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-24.html" target="_blank">2025-11-24</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-23.html" target="_blank">2025-11-23</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-22.html" target="_blank">2025-11-22</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-21.html" target="_blank">2025-11-21</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-20.html" target="_blank">2025-11-20</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-19.html" target="_blank">2025-11-19</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-18.html" target="_blank">2025-11-18</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-17.html" target="_blank">2025-11-17</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-16.html" target="_blank">2025-11-16</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-15.html" target="_blank">2025-11-15</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-14.html" target="_blank">2025-11-14</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-13.html" target="_blank">2025-11-13</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-12.html" target="_blank">2025-11-12</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-11.html" target="_blank">2025-11-11</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-10.html" target="_blank">2025-11-10</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-09.html" target="_blank">2025-11-09</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-08.html" target="_blank">2025-11-08</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-07.html" target="_blank">2025-11-07</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-06.html" target="_blank">2025-11-06</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-05.html" target="_blank">2025-11-05</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-04.html" target="_blank">2025-11-04</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-03.html" target="_blank">2025-11-03</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-02.html" target="_blank">2025-11-02</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-11-01.html" target="_blank">2025-11-01</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-31.html" target="_blank">2025-10-31</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-30.html" target="_blank">2025-10-30</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-29.html" target="_blank">2025-10-29</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-28.html" target="_blank">2025-10-28</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-27.html" target="_blank">2025-10-27</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-26.html" target="_blank">2025-10-26</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-25.html" target="_blank">2025-10-25</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-24.html" target="_blank">2025-10-24</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-23.html" target="_blank">2025-10-23</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-22.html" target="_blank">2025-10-22</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-21.html" target="_blank">2025-10-21</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-20.html" target="_blank">2025-10-20</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-19.html" target="_blank">2025-10-19</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-18.html" target="_blank">2025-10-18</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-17.html" target="_blank">2025-10-17</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-16.html" target="_blank">2025-10-16</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-15.html" target="_blank">2025-10-15</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-14.html" target="_blank">2025-10-14</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-13.html" target="_blank">2025-10-13</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-12.html" target="_blank">2025-10-12</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-11.html" target="_blank">2025-10-11</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-10.html" target="_blank">2025-10-10</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-09.html" target="_blank">2025-10-09</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-08.html" target="_blank">2025-10-08</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-07.html" target="_blank">2025-10-07</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-06.html" target="_blank">2025-10-06</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-05.html" target="_blank">2025-10-05</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-04.html" target="_blank">2025-10-04</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-03.html" target="_blank">2025-10-03</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-02.html" target="_blank">2025-10-02</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-10-01.html" target="_blank">2025-10-01</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-30.html" target="_blank">2025-09-30</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-29.html" target="_blank">2025-09-29</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-28.html" target="_blank">2025-09-28</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-27.html" target="_blank">2025-09-27</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-26.html" target="_blank">2025-09-26</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-25.html" target="_blank">2025-09-25</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-24.html" target="_blank">2025-09-24</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-23.html" target="_blank">2025-09-23</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-22.html" target="_blank">2025-09-22</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-21.html" target="_blank">2025-09-21</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-20.html" target="_blank">2025-09-20</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-19.html" target="_blank">2025-09-19</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-18.html" target="_blank">2025-09-18</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-17.html" target="_blank">2025-09-17</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-16.html" target="_blank">2025-09-16</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-15.html" target="_blank">2025-09-15</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-14.html" target="_blank">2025-09-14</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-13.html" target="_blank">2025-09-13</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-12.html" target="_blank">2025-09-12</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-11.html" target="_blank">2025-09-11</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-10.html" target="_blank">2025-09-10</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-09.html" target="_blank">2025-09-09</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-08.html" target="_blank">2025-09-08</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-07.html" target="_blank">2025-09-07</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-06.html" target="_blank">2025-09-06</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-05.html" target="_blank">2025-09-05</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-09-04.html" target="_blank">2025-09-04</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-30.html" target="_blank">2025-08-30</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-25.html" target="_blank">2025-08-25</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-24.html" target="_blank">2025-08-24</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-23.html" target="_blank">2025-08-23</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-22.html" target="_blank">2025-08-22</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-21.html" target="_blank">2025-08-21</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-20.html" target="_blank">2025-08-20</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-17.html" target="_blank">2025-08-17</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-15.html" target="_blank">2025-08-15</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-14.html" target="_blank">2025-08-14</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-13.html" target="_blank">2025-08-13</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-11.html" target="_blank">2025-08-11</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-10.html" target="_blank">2025-08-10</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-08.html" target="_blank">2025-08-08</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-07.html" target="_blank">2025-08-07</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-06.html" target="_blank">2025-08-06</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-05.html" target="_blank">2025-08-05</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-04.html" target="_blank">2025-08-04</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-03.html" target="_blank">2025-08-03</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-02.html" target="_blank">2025-08-02</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-08-01.html" target="_blank">2025-08-01</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-31.html" target="_blank">2025-07-31</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-30.html" target="_blank">2025-07-30</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-29.html" target="_blank">2025-07-29</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-27.html" target="_blank">2025-07-27</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-26.html" target="_blank">2025-07-26</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-25.html" target="_blank">2025-07-25</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-24.html" target="_blank">2025-07-24</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-23.html" target="_blank">2025-07-23</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-22.html" target="_blank">2025-07-22</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-21.html" target="_blank">2025-07-21</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-20.html" target="_blank">2025-07-20</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-19.html" target="_blank">2025-07-19</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-18.html" target="_blank">2025-07-18</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-17.html" target="_blank">2025-07-17</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-16.html" target="_blank">2025-07-16</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-15.html" target="_blank">2025-07-15</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-13.html" target="_blank">2025-07-13</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-12.html" target="_blank">2025-07-12</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-11.html" target="_blank">2025-07-11</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-10.html" target="_blank">2025-07-10</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-09.html" target="_blank">2025-07-09</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-08.html" target="_blank">2025-07-08</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-07.html" target="_blank">2025-07-07</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-06.html" target="_blank">2025-07-06</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-05.html" target="_blank">2025-07-05</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-04.html" target="_blank">2025-07-04</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-03.html" target="_blank">2025-07-03</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-02.html" target="_blank">2025-07-02</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-07-01.html" target="_blank">2025-07-01</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-30.html" target="_blank">2025-06-30</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-29.html" target="_blank">2025-06-29</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-28.html" target="_blank">2025-06-28</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-27.html" target="_blank">2025-06-27</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-26.html" target="_blank">2025-06-26</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-25.html" target="_blank">2025-06-25</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-24.html" target="_blank">2025-06-24</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-23.html" target="_blank">2025-06-23</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-22.html" target="_blank">2025-06-22</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-21.html" target="_blank">2025-06-21</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-20.html" target="_blank">2025-06-20</a></li><li><a href="https://wjjzl519.github.io/ai-news-daily/daily/2025-06-19.html" target="_blank">2025-06-19</a></li>
+        </ul>
+      </div>
+
+    <div class="footer">
+      🔄 由 Cloudflare Workers + DeepSeek 自动生成 | 更新时间: 2026/4/30 22:01:29
+    </div>
+  </div>
+</body>
+</html>
